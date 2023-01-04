@@ -54,6 +54,6 @@ for var in [u, p]:
     assert bc4 == 0
 
 doPlot = False
-if doPlot == True:  # Plotting 8 snapshots of the periodic solution (T=2).
+if doPlot:  # Plotting 8 snapshots of the periodic solution (T=2).
     for ti in np.arange(0.0, 2.25, 0.25):
         plot3d(u.subs(t, ti), (x, -1, 1), (y, -1, 1), title='t = ' + str(ti))
