@@ -106,11 +106,13 @@ if doPlot:
     plot(s, (t, 0, 1))
     plot(s, (t, 0.49, 0.52))
     
-    # Plotting 3 snapshots of the displacement solution.
+    # Plotting 2 snapshots of the displacement solution.
     # plot3d(u.subs(t, 0.0), (x, 0, 1), (y, 0, 1), title='t = 0.0')
-    plot3d(u.subs(t, 0.505), (x, 0, 1), (y, 0, 1), title='t = 0.505')
-    plot3d(u.subs(t, 1.0), (x, 0, 1), (y, 0, 1), title='t = 1.0')
+    plot3d(u.subs(t, 0.505), (x, 0, 1), (y, 0, 1), title='Displacement solution at t = 0.505')
+    plot3d(u.subs(t, 1.0), (x, 0, 1), (y, 0, 1), title='Displacement solution at t = 1.0')
     
+    # And details of the momentum solution
+    plot3d(p.subs(y, 0.25),(x, 0, 1), (t, 0, 1), title='Momentum solution at y = 0.25' , nb_of_points_y = 201)
     ptime = p.subs([(x, 0.25), (y, 0.25)])
     plot(ptime, (t, 0, 1))
     
