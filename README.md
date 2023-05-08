@@ -11,6 +11,6 @@ With the product of trignonometric and exponential functions, closed-form soluti
 
 In case, you find this useful, you might also be interested in these papers and might even want to cite them.
 
-von Danwitz, M, Voulis, I, Hosters, N, Behr, M. Time-continuous and time-discontinuous space-time finite elements for advection-diffusion problems. Int J Numer Methods Eng. 2023; 1- 28. doi: 10.1002/nme.7241
+von Danwitz, M, Voulis, I, Hosters, N, Behr, M. **Time-continuous and time-discontinuous space-time finite elements for advection-diffusion problems.** Int J Numer Methods Eng. 2023; 1- 28. ![doi: 10.1002/nme.7241](https://doi.org/10.1002/nme.7241)
 
-Schuß, S, Glas, S, Hesch, C. Non-linear space-time elasticity. Int J Numer Methods Eng. 2023; 124( 9): 1965– 1990. doi: 10.1002/nme.7194
+Schuß, S, Glas, S, Hesch, C. **Non-linear space-time elasticity.** Int J Numer Methods Eng. 2023; 124( 9): 1965– 1990. ![doi: 10.1002/nme.7194](https://doi.org/10.1002/nme.7194)
